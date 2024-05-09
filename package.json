@@ -1,0 +1,19 @@
+{
+  "name": "librarydatabasewebservicecourse",
+  "version": "1.0.0",
+  "description": "A mock library database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrueGlimGrold/LibraryDatabaseWebServiceCourse.git"
+  },
+  "author": "Luke Bullock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrueGlimGrold/LibraryDatabaseWebServiceCourse/issues"
+  },
+  "homepage": "https://github.com/TrueGlimGrold/LibraryDatabaseWebServiceCourse#readme"
+}
