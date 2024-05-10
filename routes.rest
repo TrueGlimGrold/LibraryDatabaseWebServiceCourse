@@ -1,0 +1,30 @@
+### Get all 
+GET http://localhost:3000/items
+### Get john
+GET http://localhost:3000/items/663d51e1cb52ea0438335bcf
+
+### Create item
+POST http://localhost:3000/items HTTP/1.1
+Content-Type: application/json
+{
+    "type": "movie",
+    "title": "Luke's movie", 
+    "director": "The invisible man", 
+    "genre": "Sci-fi", 
+    "release_year": 1660,
+    "rating": 3.2
+}
+
+
+### PUT item
+PUT http://localhost:3000/items/663d51e1cb52ea0438335bcf HTTP/1.1
+content-type: application/json 
+
+{
+    "type": "book",
+    "title": "modified", 
+    "director": "Builder frank", 
+    "genre": "Sci-fi", 
+    "release_year": 2025,
+    "rating": 8.9
+}
