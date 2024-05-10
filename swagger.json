@@ -5,7 +5,7 @@
     "description": "Items Api",
     "version": "1.0.0"
   },
-  "host": "https://librarydatabasewebservicecourse.onrender.com",
+  "host": "librarydatabasewebservicecourse.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
